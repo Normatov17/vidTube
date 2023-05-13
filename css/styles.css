@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap");
+
+/* Global styles */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #5a5a5a;
+}
+
+img{
+    cursor: pointer;
+}
+
+/*  */
+
+.nav-flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 2%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.nav-left {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-right img{
+    width: 30px;
+    margin: 0px 12.5px;
+}
+
+.user-icon {
+    width: 40px;
+    border-radius: 100%;
+    margin: 0px;
+}
+
+.menu-icon{
+    width: 27px;
+        margin-right: 25px;
+}
+
+.logo{
+    width: 130px;
+}
+
+.nav-middle {
+    display: flex;
+    align-items: center;
+}
+
+.search-box {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    margin-right: 15px;
+    padding: 8px 12px;
+    border-radius: 25px;
+}
+
+.mic-icon {
+    width: 20px;
+
+}
+
+.search-input {
+    width: 400px;
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+.seacrh {
+    width: 15px;
+}
+
+.sidebar {
+    background: #fff;
+    width: 15%;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    padding-left: 2%;
+    padding-top: 80px;
+
+}
+
+.shortcut-links a{
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+
+.shortcut-links a img{
+    width: 25px;
+    margin-right: 20px;
+}
+
+
+.shortcut-links a:first-child{
+    color: #ed3833;
+}
+
+.shortcut-links a:active{
+    color: #ed3833;
+}
+
+.sidebar  hr {
+    border: 0;
+    height: 1px;
+    background: #ccc;
+    width: 85%;
+}
+
+.subscribed-list h3{
+    font-size: 14px;
+    margin: 20px 0px;
+    color: #5a5a5a;
+}
+
+.subscribed-list a {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    width: fit-content;
+    flex-wrap: wrap;
+}
+
+
+.subscribed-list a img{
+    width: 25px;
+    border-radius: 100%;
+    margin-right: 20px;
+}
+
+.small-sidebar{
+    width: 5%;
+}
+
+.small-sidebar a p {
+    display: none;
+}
+
+.small-sidebar h3{
+    display: none;
+}
+
+.small-sidebar hr {
+    width: 50%;
+    margin-bottom: 25px;
+}
